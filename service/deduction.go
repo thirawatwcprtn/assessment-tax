@@ -18,7 +18,6 @@ type KReceiptDeductionRequest struct {
 	Amount float64 `json:"amount"`
 }
 
-// Response body structure
 type KReceiptDeductionResponse struct {
 	KReceipt float64 `json:"kReceipt"`
 }
